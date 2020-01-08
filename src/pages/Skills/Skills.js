@@ -5,7 +5,8 @@ class Skills extends React.PureComponent {
   render() {
 
     var box = {
-      margin: '1%'
+      margin: '1%',
+      marginTop: '6rem'
     }
 
     var styles = {

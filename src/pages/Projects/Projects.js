@@ -13,7 +13,8 @@ class Projects extends React.PureComponent {
       display: 'inline-flex',
       width: '18rem',
       height: '33rem', 
-      margin: '0.33rem'
+      margin: '0.33rem',
+      marginTop: '6rem'
     }
 
     return (
