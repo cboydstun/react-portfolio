@@ -14,7 +14,7 @@ class Projects extends React.PureComponent {
       width: '18rem',
       height: '33rem', 
       margin: '0.33rem',
-      marginTop: '6rem'
+      marginTop: '3rem'
     }
 
     return (
