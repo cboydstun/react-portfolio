@@ -6,7 +6,8 @@ class Skills extends React.PureComponent {
 
     var styles = {
       width: '100%',
-      height: '33rem'
+      height: '33rem',
+      margin: '0.33rem'
     }
 
     return (
