@@ -10,7 +10,7 @@ class Projects extends React.PureComponent {
     }
     
     var styles = {
-      display: 'inline-block',
+      display: 'inline-flex',
       width: '18rem',
       height: '33rem', 
       margin: '0.33rem'
