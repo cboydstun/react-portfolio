@@ -6,6 +6,11 @@ import logo from './logo.png';
 
 // This contains the header bar seen at the top of the page.
 function Header() {
+
+    var buttonStyle = {
+        margin:"0.25rem"
+    };
+
     return (
         <Navbar bg="danger" fixed="top">
             <Navbar.Brand href="/">
@@ -19,18 +24,19 @@ function Header() {
                 />{' '}
                     Chris Boydstun: Full Stack Developer
             </Navbar.Brand>
+            <div >
+                <NavLink exact to="/" style = { buttonStyle }>
+                    <Button>Bio</Button>
+                </NavLink>
 
-            <NavLink exact to="/">
-                <Button>Bio</Button>
-            </NavLink>
+                <NavLink to="/Skills" style = { buttonStyle }>
+                    <Button>Skills</Button>
+                </NavLink>
 
-            <NavLink to="/Skills">
-                <Button>Skills</Button>
-            </NavLink>
-
-            <NavLink to="/Projects">
-                <Button>Projects</Button>
-            </NavLink>
+                <NavLink to="/Projects" style = { buttonStyle }>
+                    <Button>Projects</Button>
+                </NavLink>
+            </div>
         </Navbar>
     );
 }
