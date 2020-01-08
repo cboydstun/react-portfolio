@@ -7,7 +7,7 @@ import logo from './logo.png';
 function Header() {
     return (
         <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="#home">
+            <Navbar.Brand href="/">
                 <img
                     alt=""
                     src= { logo }
