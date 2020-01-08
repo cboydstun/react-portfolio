@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Button, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 
 
 class Projects extends React.PureComponent {
