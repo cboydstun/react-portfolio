@@ -4,6 +4,10 @@ import { Card, Button, ListGroup, ListGroupItem } from 'react-bootstrap';
 
 class Projects extends React.PureComponent {
   render() {
+
+    var box = {
+      margin: '1%'
+    }
     
     var styles = {
       display: 'inline-block',
@@ -13,7 +17,7 @@ class Projects extends React.PureComponent {
     }
 
     return (
-      <React.Fragment>
+      <React.Fragment style = {box}>
         <Card style={styles}>
           <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
           <Card.Body>

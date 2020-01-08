@@ -1,19 +1,10 @@
 import React from 'react';
 
-var style = {
-    backgroundColor: "grey",
-    textAlign: "center",
-    height: "60px",
-    width: "100%",
-}
+import { Navbar } from 'react-bootstrap';
 
 function Footer({ children }) {
     return (
-        <div>
-            <div style={style}>
-                { children }
-            </div>
-        </div>
+        <Navbar bg="danger" expand="lg"></Navbar>
     )
 }
 

@@ -6,7 +6,7 @@ import logo from './logo.png';
 // This contains the header bar seen at the top of the page.
 function Header() {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="danger" expand="lg">
             <Navbar.Brand href="/">
                 <img
                     alt=""

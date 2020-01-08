@@ -1,11 +1,12 @@
 import React from 'react';
+import { Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 import '../NavBar/NavBar.css';
 
 const NavBar = () => (
-  <nav className="navbar">
-    <NavLink exact to="/">
+  <Navbar bg="danger" expand="lg">
+  <NavLink exact to="/">
       Bio
     </NavLink>
     <NavLink to="/Skills">
@@ -14,7 +15,7 @@ const NavBar = () => (
     <NavLink to="/Projects">
       Projects
     </NavLink>
-  </nav>
+  </Navbar>
 );
 
 export default NavBar;
