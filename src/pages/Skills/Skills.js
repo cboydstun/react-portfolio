@@ -1,5 +1,16 @@
 import React from 'react';
-import { Card, Button } from 'react-bootstrap';
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import Image from 'react-bootstrap/Image'
+
+import HTMLIcon from './Images/HTML5.png'
+import CSSIcon from './Images/CSS3.png'
+import JSIcon from './Images/Javascript.png'
+import NodeIcon from './Images/Node.png'
+import ReactIcon from './Images/React.png'
+import BootIcon from './Images/Bootstrap.png'
+
+import './Skills.css'
 
 class Skills extends React.PureComponent {
   render() {
@@ -16,18 +27,44 @@ class Skills extends React.PureComponent {
     }
 
     return (
-      <div style = {box}>
-        <Card style={styles}>
-          <Card.Body>
-            <Card.Title>Skills</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
-            </Card.Text>
-            <Button variant="primary">Click It</Button>
-          </Card.Body>
-        </Card>
-      </div>
+      <Row style = {box}>
+            <Col></Col>
+            <Col md={10} style = {styles}>
+                <Row>
+                    <Col>
+                        <div className="skillBox">
+                            <Row>
+                                <Col>
+                                    <h1>Skills</h1>
+                                    <hr />
+                                </Col>
+                            </Row>
+                            <Row style={{paddingBottom: "3rem"}}>
+                                <Col>
+                                    <Image className="icon" src={HTMLIcon} fluid title="HTML5" />
+                                </Col>
+                                <Col>
+                                    <Image className="icon" src={CSSIcon} fluid title="CSS3" />
+                                </Col>
+                                <Col>
+                                    <Image className="icon" src={JSIcon} fluid title="JavaScript" />
+                                </Col>
+                                <Col>
+                                    <Image className="icon" src={NodeIcon} fluid title="Node.js" />
+                                </Col>
+                                <Col>
+                                    <Image className="icon" src={ReactIcon} fluid title="React"/>
+                                </Col>
+                                <Col>
+                                    <Image className="icon" src={BootIcon} fluid title="Bootstrap"/>
+                                </Col>
+                            </Row>
+                        </div>
+                    </Col>
+                </Row>
+            </Col>
+            <Col></Col>
+        </Row >
     );
   }
 }
