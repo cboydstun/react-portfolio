@@ -1,6 +1,10 @@
 import React from 'react';
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 
+import expat from './Images/expatjournal.png'
+import nasa from './Images/NASA.png'
+import sauti from './Images/sauti.png'
+
 import './Projects.css'
 
 class Projects extends React.PureComponent {
@@ -13,7 +17,7 @@ class Projects extends React.PureComponent {
     var styles = {
       display: 'inline-flex',
       width: '18rem',
-      height: '33rem', 
+      minHeight: '33rem', 
       margin: '0.33rem',
       marginTop: '3rem'
     }
@@ -21,62 +25,59 @@ class Projects extends React.PureComponent {
     return (
       <React.Fragment style = {box}>
         <Card style={styles}>
-          <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+          <Card.Img variant="top" src={expat} />
           <Card.Body>
-            <Card.Title>Card ONE</Card.Title>
+            <Card.Title>Expat Journal</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
+              Web application featuring pictures and information about people's global travels.
             </Card.Text>
           </Card.Body>
           <ListGroup className="list-group-flush">
-            <ListGroupItem>Cras justo odio</ListGroupItem>
-            <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-            <ListGroupItem>Vestibulum at eros</ListGroupItem>
+            <ListGroupItem>Created marketing website to highlight features of the project.</ListGroupItem>
+            <ListGroupItem>Linked React application to marketing site.</ListGroupItem>
+            <ListGroupItem>Created dynamic graphics for social media.</ListGroupItem>
           </ListGroup>
           <Card.Body>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            <Card.Link href="https://expat-marketing-cb.netlify.com/">Deployed Link</Card.Link>
+            <Card.Link href="https://github.com/ExpatJournal/Marketing-Page-Christopher-Boydstun">GitHub Link</Card.Link>
           </Card.Body>
         </Card>
 
         <Card style={styles}>
-        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+        <Card.Img variant="top" src={nasa} />
         <Card.Body>
-          <Card.Title>Card TWO</Card.Title>
+          <Card.Title>NASA Data Science</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
+            Live daily link to the NASA database of celestial bodies.
           </Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">
-          <ListGroupItem>Cras justo odio</ListGroupItem>
-          <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-          <ListGroupItem>Vestibulum at eros</ListGroupItem>
+          <ListGroupItem>Created a web based React application from scratch.</ListGroupItem>
+          <ListGroupItem>Used a live unqiue API key to fetch data from NASA's daily update of celestial bodies.</ListGroupItem>
+          <ListGroupItem>Styled data and installed a selector to allow for easy navigation.</ListGroupItem>
         </ListGroup>
         <Card.Body>
-          <Card.Link href="#">Card Link</Card.Link>
-          <Card.Link href="#">Another Link</Card.Link>
+          <Card.Link href="https://nasa-axios-api.netlify.com/">Deployed Link</Card.Link>
+          <Card.Link href="https://github.com/cboydstun/nasa-photo-of-the-day">GitHub Link</Card.Link>
         </Card.Body>
         </Card>
 
         <Card style={styles}>
-        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+        <Card.Img variant="top" src={sauti} />
         <Card.Body>
-          <Card.Title>Card THREE</Card.Title>
+          <Card.Title>Sauti Databank</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
+            Sauti Databank collects information in Southeast Africa and distributes it for humintarian purposes.
           </Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">
-          <ListGroupItem>Cras justo odio</ListGroupItem>
-          <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-          <ListGroupItem>Vestibulum at eros</ListGroupItem>
+          <ListGroupItem>Converted backend from a Restful API to GraphQL Apollo standards.</ListGroupItem>
+          <ListGroupItem>Created more filtrations and graphics to present information.</ListGroupItem>
+          <ListGroupItem>Integrated an export componenent so that data may be used outside the site.</ListGroupItem>
         </ListGroup>
         <Card.Body>
-          <Card.Link href="#">Card Link</Card.Link>
-          <Card.Link href="#">Another Link</Card.Link>
+          <Card.Link href="http://sautiafrica.org/">Site Link</Card.Link>
+          <Card.Link href="https://github.com/sauti-databank">GitHub Link</Card.Link>
         </Card.Body>
         </Card>
       </React.Fragment>
