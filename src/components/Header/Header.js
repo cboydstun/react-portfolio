@@ -11,7 +11,7 @@ function Header() {
 
     return (
         <nav class="navbar navbar-expand-lg navbar-light bg-danger">
-            <a class="navbar-brand" href="/">Chris Boydstun: Full Stack Developer</a>
+            <a class="navbar-brand" id="headerTitle" href="/">Chris Boydstun: Full Stack Web Developer</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
