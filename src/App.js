@@ -12,7 +12,7 @@ function App() {
     <main>
       <Header />
       <Routes />
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }

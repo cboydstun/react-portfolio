@@ -33,12 +33,6 @@ class Skills extends React.PureComponent {
                 <Row>
                     <Col>
                         <div className="skillBox">
-                            <Row>
-                                <Col>
-                                    <h1>Skills</h1>
-                                    <hr />
-                                </Col>
-                            </Row>
                             <Row style={{paddingBottom: "3rem"}}>
                                 <Col>
                                     <Image className="icon" src={HTMLIcon} fluid title="HTML5" />

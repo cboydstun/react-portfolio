@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './Header.css'
+
 // This contains the header bar seen at the top of the page.
 function Header() {
 

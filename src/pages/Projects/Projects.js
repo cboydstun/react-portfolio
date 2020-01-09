@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 
+import './Projects.css'
 
 class Projects extends React.PureComponent {
   render() {
