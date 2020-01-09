@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
@@ -14,19 +14,20 @@ class Bio extends React.PureComponent {
 
     var box = {
       margin: '1%',
-      marginTop: '3rem'
+      marginTop: '3rem', 
+      padding: 'auto'
     }
 
     var styles = {
       width: '100%',
       maxHeight: '33rem',
-      margin: '0.33rem'
+      margin: '0.33rem',
+      padding: 'auto'
     }
 
   return (
     <div style = {box}>
-    <Card style={styles}>
-    <Row>
+    <Row style={styles}>
             <Col></Col>
             <Col md={10}>
                 <Row>
@@ -63,7 +64,6 @@ class Bio extends React.PureComponent {
             </Col>
             <Col></Col>
         </Row>
-    </Card>
   </div>
     );
   }

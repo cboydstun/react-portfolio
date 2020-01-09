@@ -2,23 +2,19 @@
     display: inline-block;
 }
 
-hr {
-    border: .5px solid lightgray;
-}
-
-h1 {
-    text-align: left;
-    margin-left: .5rem;
-}
-
 .bioText {
+    display: inline-block;
     margin: auto;
     text-align: left;
     padding: 1.3rem 0rem;
 }
 
 #bioPic {
-    float: left;
+    float: right;
+    max-height: 400px;
+    max-width: 200px;
+    min-height: 100px;
+    min-width: 50px;
 }
 
 .linkIcon {
@@ -34,11 +30,20 @@ h1 {
     padding: 1.3rem;
 }
 
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 800px) {
+    #bioPic{
+        float: center;
+    }
+} */
+
+@media screen and (max-width: 800px) {
     #bioBox{
         margin: auto;
         display: block;
-        width: 200px;
+        width: auto;
+        padding: auto;
+        margin: 0 auto;
+
     }
     
     #bioPic {
