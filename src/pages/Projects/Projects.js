@@ -25,7 +25,7 @@ class Projects extends React.PureComponent {
     return (
       <React.Fragment style = {box}>
         <Card style={styles}>
-          <Card.Img variant="top" src={expat} />
+          <Card.Img variant="top" src={expat} href="https://expat-marketing-cb.netlify.com/"/>
           <Card.Body>
             <Card.Title>Expat Journal</Card.Title>
             <Card.Text>
