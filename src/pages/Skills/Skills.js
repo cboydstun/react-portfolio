@@ -11,8 +11,7 @@ import ReactIcon from './Images/React.png'
 import BootIcon from './Images/Bootstrap.png'
 import RouterIcon from './Images/ReactRouter.png'
 import FontAwesomeIcon from './Images/FontAwesome.png'
-
-
+import OpenGraphIcon from './Images/OpenGraph.png'
 
 import './Skills.css'
 
@@ -37,7 +36,7 @@ class Skills extends React.PureComponent {
                 <Row>
                     <Col>
                         <div className="skillBox">
-                            <Row style={{paddingBottom: "3rem"}}>
+                            <Row>
                                 <Col>
                                     <Image className="icon" src={HTMLIcon} fluid title="HTML5" />
                                 </Col>
@@ -48,10 +47,10 @@ class Skills extends React.PureComponent {
                                     <Image className="icon" src={JSIcon} fluid title="JavaScript" />
                                 </Col>
                                 <Col>
-                                    <Image className="icon" src={NodeIcon} fluid title="Node.js" />
+                                    <Image className="icon" src={ReactIcon} fluid title="React"/>
                                 </Col>
                                 <Col>
-                                    <Image className="icon" src={ReactIcon} fluid title="React"/>
+                                    <Image className="icon" src={NodeIcon} fluid title="Node.js" />
                                 </Col>
                                 <Col>
                                     <Image className="icon" src={BootIcon} fluid title="Bootstrap"/>
@@ -61,6 +60,9 @@ class Skills extends React.PureComponent {
                                 </Col>
                                 <Col>
                                     <Image className="icon" src={FontAwesomeIcon} fluid title="Font Awesome"/>
+                                </Col>
+                                <Col>
+                                    <Image className="icon" src={OpenGraphIcon} fluid title="Open Graph"/>
                                 </Col>
                             </Row>
                         </div>

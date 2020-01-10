@@ -2,7 +2,6 @@ import React from 'react';
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 import { MDBIcon, MDBView } from "mdbreact";
 
-
 import expat from './Images/expatjournal.png'
 import nasa from './Images/NASA.png'
 import sauti from './Images/sauti.png'
@@ -40,9 +39,9 @@ class Projects extends React.PureComponent {
               Web application featuring pictures and information about people's global travels.
             </Card.Text>
             <div>
-              <MDBIcon id="projectIcons" fab icon="html5" />
-              <MDBIcon id="projectIcons" fab icon="css3-alt" />
-              <MDBIcon id="projectIcons" fab icon="react" />
+              <MDBIcon id="projectIcons" fab icon="html5" size="2x" />
+              <MDBIcon id="projectIcons" fab icon="css3-alt" size="2x" />
+              <MDBIcon id="projectIcons" fab icon="react" size="2x" />
             </div>
           </Card.Body>
           <ListGroup className="list-group-flush">
@@ -70,9 +69,9 @@ class Projects extends React.PureComponent {
             Live daily link to the NASA database of celestial bodies.
           </Card.Text>
           <div>
-            <MDBIcon id="projectIcons" fab icon="html5" />
-            <MDBIcon id="projectIcons" fab icon="css3-alt" />
-            <MDBIcon id="projectIcons" fab icon="react" />
+            <MDBIcon id="projectIcons" fab icon="html5" size="2x" />
+            <MDBIcon id="projectIcons" fab icon="css3-alt" size="2x" />
+            <MDBIcon id="projectIcons" fab icon="react" size="2x" />
           </div>
         </Card.Body>
         <ListGroup className="list-group-flush">
@@ -101,9 +100,9 @@ class Projects extends React.PureComponent {
           </Card.Text>
         </Card.Body>
         <div>
-          <MDBIcon id="projectIcons" fab icon="html5" />
-          <MDBIcon id="projectIcons" fab icon="css3-alt" />
-          <MDBIcon id="projectIcons" fab icon="react" />
+          <MDBIcon id="projectIcons" fab icon="html5" size="2x" />
+          <MDBIcon id="projectIcons" fab icon="css3-alt" size="2x" />
+          <MDBIcon id="projectIcons" fab icon="react" size="2x" />
         </div>
         <ListGroup className="list-group-flush">
           <ListGroupItem>Converted backend from a Restful API to GraphQL Apollo standards.</ListGroupItem>
