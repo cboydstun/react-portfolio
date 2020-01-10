@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
-import { MDBIcon } from "mdbreact";
+import { MDBIcon, MDBView, MDBMask } from "mdbreact";
 
 
 import expat from './Images/expatjournal.png'
@@ -8,6 +8,7 @@ import nasa from './Images/NASA.png'
 import sauti from './Images/sauti.png'
 
 import './Projects.css'
+
 
 class Projects extends React.PureComponent {
   render() {
@@ -27,7 +28,13 @@ class Projects extends React.PureComponent {
     return (
       <React.Fragment style = {box}>
         <Card style={styles}>
-          <Card.Img variant="top" src={expat} href="https://expat-marketing-cb.netlify.com/"/>
+          <MDBView hover zoom>
+            <img
+              src={expat}
+              className="img-fluid"
+              alt="Expat Journal"
+            />
+          </MDBView>
           <Card.Body>
             <Card.Title>Expat Journal</Card.Title>
             <Card.Text>
@@ -51,8 +58,14 @@ class Projects extends React.PureComponent {
         </Card>
 
         <Card style={styles}>
-        <Card.Img variant="top" src={nasa} />
-        <Card.Body>
+          <MDBView hover zoom>
+            <img
+              src={nasa}
+              className="img-fluid"
+              alt="NASA"
+            />
+          </MDBView>        
+          <Card.Body>
           <Card.Title>NASA Data Science</Card.Title>
           <Card.Text>
             Live daily link to the NASA database of celestial bodies.
@@ -75,7 +88,13 @@ class Projects extends React.PureComponent {
         </Card>
 
         <Card style={styles}>
-        <Card.Img variant="top" src={sauti} />
+        <MDBView hover zoom>
+          <img
+            src={sauti}
+            className="img-fluid"
+            alt="NASA"
+          />
+        </MDBView>
         <Card.Body>
           <Card.Title>Sauti Databank</Card.Title>
           <Card.Text>
