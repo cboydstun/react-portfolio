@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
-import { MDBIcon, MDBView, MDBMask } from "mdbreact";
+import { MDBIcon, MDBView } from "mdbreact";
 
 
 import expat from './Images/expatjournal.png'
@@ -8,7 +8,6 @@ import nasa from './Images/NASA.png'
 import sauti from './Images/sauti.png'
 
 import './Projects.css'
-
 
 class Projects extends React.PureComponent {
   render() {
