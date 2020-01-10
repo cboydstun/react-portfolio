@@ -5,11 +5,6 @@ import './Header.css'
 // This contains the header bar seen at the top of the page.
 function Header() {
 
-    var linkStyle = {
-        display:"flex-block",
-        color: "white"
-    };
-
     return (
         <nav class="navbar navbar-expand-lg navbar-light bg-primary">
             <a class="navbar-brand" id="headerTitle" href="/">Chris Boydstun: Full Stack Web Developer</a>

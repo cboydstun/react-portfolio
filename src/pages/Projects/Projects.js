@@ -1,5 +1,7 @@
 import React from 'react';
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { MDBIcon } from "mdbreact";
+
 
 import expat from './Images/expatjournal.png'
 import nasa from './Images/NASA.png'
@@ -31,6 +33,11 @@ class Projects extends React.PureComponent {
             <Card.Text>
               Web application featuring pictures and information about people's global travels.
             </Card.Text>
+            <div>
+              <MDBIcon id="projectIcons" fab icon="html5" />
+              <MDBIcon id="projectIcons" fab icon="css3-alt" />
+              <MDBIcon id="projectIcons" fab icon="react" />
+            </div>
           </Card.Body>
           <ListGroup className="list-group-flush">
             <ListGroupItem>Created marketing website to highlight features of the project.</ListGroupItem>
@@ -50,6 +57,11 @@ class Projects extends React.PureComponent {
           <Card.Text>
             Live daily link to the NASA database of celestial bodies.
           </Card.Text>
+          <div>
+            <MDBIcon id="projectIcons" fab icon="html5" />
+            <MDBIcon id="projectIcons" fab icon="css3-alt" />
+            <MDBIcon id="projectIcons" fab icon="react" />
+          </div>
         </Card.Body>
         <ListGroup className="list-group-flush">
           <ListGroupItem>Created a web based React application from scratch.</ListGroupItem>
@@ -70,6 +82,11 @@ class Projects extends React.PureComponent {
             Sauti Databank collects information in Southeast Africa and distributes it for humintarian purposes.
           </Card.Text>
         </Card.Body>
+        <div>
+          <MDBIcon id="projectIcons" fab icon="html5" />
+          <MDBIcon id="projectIcons" fab icon="css3-alt" />
+          <MDBIcon id="projectIcons" fab icon="react" />
+        </div>
         <ListGroup className="list-group-flush">
           <ListGroupItem>Converted backend from a Restful API to GraphQL Apollo standards.</ListGroupItem>
           <ListGroupItem>Created more filtrations and graphics to present information.</ListGroupItem>

@@ -9,6 +9,10 @@ import JSIcon from './Images/Javascript.png'
 import NodeIcon from './Images/Node.png'
 import ReactIcon from './Images/React.png'
 import BootIcon from './Images/Bootstrap.png'
+import RouterIcon from './Images/ReactRouter.png'
+import FontAwesomeIcon from './Images/FontAwesome.png'
+
+
 
 import './Skills.css'
 
@@ -51,6 +55,12 @@ class Skills extends React.PureComponent {
                                 </Col>
                                 <Col>
                                     <Image className="icon" src={BootIcon} fluid title="Bootstrap"/>
+                                </Col>
+                                <Col>
+                                    <Image className="icon" src={RouterIcon} fluid title="React Router"/>
+                                </Col>
+                                <Col>
+                                    <Image className="icon" src={FontAwesomeIcon} fluid title="Font Awesome"/>
                                 </Col>
                             </Row>
                         </div>
