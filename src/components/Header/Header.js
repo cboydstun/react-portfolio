@@ -23,6 +23,12 @@ function Header() {
                     <li class="nav-item col text-center">
                         <a class="nav-link col text-center" id="navItems" href="/Projects">Projects</a>
                     </li>
+                    <li class="nav-item col text-center">
+                        <a class="nav-link col text-center" id="navItems" href="/Create">Create</a>
+                    </li>
+                    <li class="nav-item col text-center">
+                        <a class="nav-link col text-center" id="navItems" href="/List">List</a>
+                    </li>
                 </ul>
             </div>
         </nav>
