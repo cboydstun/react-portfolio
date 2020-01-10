@@ -2,8 +2,10 @@ import React from 'react';
 
 import Header from './components/Header/Header';
 import Routes from './components/Routes/Routes';
-// import Footer from './components/Footer/Footer';
 
+import ArticleProvider from "./components/Article/Context/articleContext";
+import Articles from "./containers/Articles"
+import AddArticle from "./components/Article/AddArticle";
 
 import './App.css';
 
@@ -12,7 +14,6 @@ function App() {
     <main>
       <Header />
       <Routes />
-      {/* <Footer /> */}
     </main>
   );
 }
