@@ -27,7 +27,7 @@ function Header() {
                         <a class="nav-link col text-center" id="navItems" href="/Users">CRUD</a>
                     </li>
                     <li class="nav-item col text-center">
-                        <a class="nav-link col text-center" id="navItems" href="/Articles">CRUD w/hooks</a>
+                        <a class="nav-link col text-center" id="navItems" href="/Articles">CRUD w/context</a>
                     </li>
                 </ul>
             </div>
