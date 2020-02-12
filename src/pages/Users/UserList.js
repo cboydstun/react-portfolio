@@ -1,8 +1,5 @@
 import React, {Component} from 'react';
 
-import Header from '../../components/Header/Header';
-import Routes from '../../components/Routes/Routes';
-
 import Users from './Users';
 import AddUser from './AddUser';
 
